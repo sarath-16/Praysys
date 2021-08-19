@@ -1,0 +1,62 @@
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.nav-item {
+  padding: 0 35px;
+}
+.carousel,.sz{
+
+height: 50rem;
+}
+
+
+#foot{
+  padding: 1%;
+  background-color: darkBlue;
+}
+#services{
+  padding: 7% 15%;
+  background-color: white;
+}
+#choose{
+  padding: 7% 15%;
+  background-color: lightgrey;
+}
+#contact{
+  padding: 7% 15%;
+  background-color: lightblue;
+}
+.fb{
+  text-align: center;
+}
+.line{
+  border-radius: 2px;
+  width: 50px;
+  background-color:lightblue;
+  height: 3px;
+}
+td{
+  padding: 14px;
+}
+.sc,.f{
+  color: white;
+  margin: 10px 10px;
+}
+h1{
+  text-align: center;
+}
+.chbl{
+  background: linear-gradient(to right,darkblue,#3204fdba), url('C:/Users/sarat/OneDrive/Desktop/Own project/praysys website/images/sec.jpg') no-repeat top center;
+
+ background-size: cover;
+
+}
+.chli{
+  background-color: white;
+}
