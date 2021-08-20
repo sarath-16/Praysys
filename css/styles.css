@@ -24,11 +24,11 @@ height:100vh;
 @media screen and (max-width:1200px)  {
   .carousel,.sz{
 
-  height:40vh;
+  height:60vh;
   }
 
 }
-@media screen and (max-width:400px)  {
+@media screen and (max-width:1000px)  {
   .carousel,.sz{
 
   height:20vh;
