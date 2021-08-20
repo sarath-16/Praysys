@@ -1,4 +1,5 @@
 *{
+  font-size: 1rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
@@ -6,11 +7,10 @@
   display: block;
 }
 
-.dropdown>.dropdown-toggle:active {
-  /*Without this, clicking will make it sticky*/
-    pointer-events: none;
-}
 
+.bgc{
+  background-color: #110089;
+}
 .nav-item {
   padding: 0 35px;
 }
@@ -18,7 +18,9 @@
 
 height: 50rem;
 }
-
+.dc{
+  color:  #021577;
+}
 a.abot{
   text-decoration:none;
   color: white;
@@ -39,7 +41,8 @@ a.abot{
 }
 #foot{
   padding: 1%;
-  background-color: darkBlue;
+  background-color: #0F0076;
+
 }
 #services{
   padding: 7% 15%;
@@ -50,11 +53,11 @@ a.abot{
 }
 #choose{
   padding: 7% 15%;
-  background-color: lightgrey;
+  background-color: #F9F9F9;
 }
 #contact{
-  padding: 7% 5%;
-  background-color: darkblue;
+  padding: 3% 5%;
+  background-color: #110089;
 }
 .container-fluid{
   margin-left: 0px;
@@ -81,6 +84,7 @@ a.abot{
 }
 h1{
   text-align: center;
+  font-weight: 600;
 }
 .btf{
   padding:10px;
@@ -97,20 +101,30 @@ h1{
 .bt{
   border-radius: 50px;
 }
+.tab{
+  color: white;
+}
+.brand{
+
+}
 .bt:hover{
   color: black;
   background-color: white;
 }
 .chbl{
-  background: linear-gradient(to right,darkblue,#3204fdba), url('C:/Users/sarat/OneDrive/Desktop/Own project/praysys website/images/sec.jpg') no-repeat top center;
+  background: linear-gradient(to right,#110089,#3204fd9A), url('C:/Users/sarat/OneDrive/Desktop/Own project/praysys website/images/sec.jpg') no-repeat top center;
 
  background-size: cover;
+}
+.contact-us{
+  color: white;
 }
 .chli{
   background-color: white;
 }
 .footer{
   display: inline-block;
+  color: white;
 }
 .con{
   float:right;
