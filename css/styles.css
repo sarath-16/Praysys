@@ -18,9 +18,13 @@
 
 height: 50rem;
 }
+.np{
+  padding-left: 0;
+}
 .dc{
   color:  #021577;
 }
+
 a.abot{
   text-decoration:none;
   color: white;
@@ -95,6 +99,9 @@ h1{
   border-radius: 50px;
   background: rgba(255, 0, 0, 0);
 }
+.icon{
+  padding-bottom: 15px;
+}
 .bgf:focus{
   outline: none;
 }
@@ -125,6 +132,9 @@ h1{
 .footer{
   display: inline-block;
   color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+
 }
 .con{
   float:right;
