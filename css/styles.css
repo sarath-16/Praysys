@@ -1,3 +1,7 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
@@ -15,7 +19,24 @@
 height: 50rem;
 }
 
-
+a.abot{
+  text-decoration:none;
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: lightblue;
+}
+a.abot{
+  position: relative;
+ padding-left: 20px;
+}
+.abot:before{
+  font-family: FontAwesome;
+  content: "\f0da";
+  position: absolute;
+  left: 0;
+}
 #foot{
   padding: 1%;
   background-color: darkBlue;
@@ -24,13 +45,20 @@ height: 50rem;
   padding: 7% 15%;
   background-color: white;
 }
+.ser{
+  padding-top: 5%;
+}
 #choose{
   padding: 7% 15%;
   background-color: lightgrey;
 }
 #contact{
-  padding: 7% 15%;
-  background-color: lightblue;
+  padding: 7% 5%;
+  background-color: darkblue;
+}
+.container-fluid{
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .fb{
   text-align: center;
@@ -41,8 +69,11 @@ height: 50rem;
   background-color:lightblue;
   height: 3px;
 }
-td{
+.td{
   padding: 14px;
+}
+.td2{
+  padding:10px;
 }
 .sc,.f{
   color: white;
@@ -51,12 +82,36 @@ td{
 h1{
   text-align: center;
 }
+.btf{
+  padding:10px;
+}
+.bgf{
+  border-color: white;
+  border-style: solid;
+  border-radius: 50px;
+  background: rgba(255, 0, 0, 0);
+}
+.bgf:focus{
+  outline: none;
+}
+.bt{
+  border-radius: 50px;
+}
+.bt:hover{
+  color: black;
+  background-color: white;
+}
 .chbl{
   background: linear-gradient(to right,darkblue,#3204fdba), url('C:/Users/sarat/OneDrive/Desktop/Own project/praysys website/images/sec.jpg') no-repeat top center;
 
  background-size: cover;
-
 }
 .chli{
   background-color: white;
+}
+.footer{
+  display: inline-block;
+}
+.con{
+  float:right;
 }
