@@ -20,6 +20,21 @@ body{
 
 height:100vh;
 }
+
+@media screen and (max-width:1200px)  {
+  .carousel,.sz{
+
+  height:40vh;
+  }
+
+}
+@media screen and (max-width:400px)  {
+  .carousel,.sz{
+
+  height:20vh;
+  }
+
+}
 .np{
   padding-left: 0;
 }
