@@ -3,6 +3,7 @@
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  line-height: 26px;
 }
 .dropdown:hover>.dropdown-menu {
   display: block;
@@ -17,7 +18,7 @@
 }
 .carousel,.sz{
 
-height: 50rem;
+height:100vh;
 }
 .np{
   padding-left: 0;
@@ -81,7 +82,7 @@ a.abot{
   padding: 14px;
 }
 .td2{
-  padding:10px;
+  padding: 1px 10px;
 }
 .sc,.f{
   color: white;
@@ -95,6 +96,7 @@ h1{
   padding:10px;
 }
 .bgf{
+  color:lightblue;
   border-color: white;
   border-style: solid;
   border-radius: 50px;
@@ -120,8 +122,7 @@ h1{
   background-color: white;
 }
 .chbl{
-  background: linear-gradient(to right,#110089,#3204fd9A), url('https://pixabay.com/get/g437908715caa87122c9fcd85a7b7d1dabfa5183f50d3f64f153e31e9da0fbb9582fb09f079e970b37e34d771c2e60b2c_1920.jpg') no-repeat top center;
-
+  background: linear-gradient(to right,#110089,#3204fd9A),  url('C:/Users/sarat/OneDrive/Desktop/Own project/praysys website/images/sec.jpg') no-repeat top center;
  background-size: cover;
 }
 .contact-us{
@@ -139,4 +140,16 @@ h1{
 }
 .con{
   float:right;
+}
+
+::placeholder {
+  color: lightblue;
+  opacity: 1;
+}
+@media (max-width:1200px){
+  .carousel,.sz{
+
+  height:30vh;
+  }
+
 }
