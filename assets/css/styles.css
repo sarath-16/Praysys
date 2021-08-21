@@ -71,9 +71,7 @@ a.abot {
 }
 
 #foot {
-  padding: 1%;
-  padding-bottom:0;
-  margin-bottom:0;
+  padding: 3%;
   background-color: #0F0076;
 }
 
@@ -136,8 +134,6 @@ a.abot {
 
 #contact {
   padding: 3% 5%;
-  padding-bottom:0;
-  margin-bottom:0;
   background-color: #110089;
 }
 
