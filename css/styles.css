@@ -16,13 +16,13 @@ body{
 .nav-item {
   padding: 0 35px;
 }
-.carousel,.sz{
+.sz{
 
-height:100vh;
+height:40rem;
 }
 
 @media screen and (max-width:1200px)  {
-  .carousel,.sz{
+.sz{
 
   height:60vh;
   }
