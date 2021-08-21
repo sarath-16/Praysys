@@ -2,6 +2,10 @@
   display: block;
 }
 
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
 .nav-item {
   padding: 0 35px;
 }
@@ -18,7 +22,11 @@
   color: white;
   margin: 10px 10px;
 }
-
+.pad{
+  margin-left: 0;
+  padding-left: 20%;
+  padding-bottom: 0;
+}
 .line {
   border-radius: 2px;
   width: 50px;
@@ -44,7 +52,7 @@ h1 {
 }
 
 .chbl {
-  background: linear-gradient(to right,#110089,#3204fd9A), url('https://github.com/sarath-16/Praysys/blob/9d0ca6029ec6946b26eb64155d2509c7dd040183/assets/img/sec.jpg') no-repeat top center;
+  background: linear-gradient(to right,#110089,#3204fd9A), url('C:/bootstrap/assets/img/sec.jpg') no-repeat top center;
   background-size: cover;
 }
 
@@ -71,7 +79,8 @@ a.abot {
 }
 
 #foot {
-  padding: 1%;
+  padding:1%;
+  padding-bottom: 2%;
   background-color: #0F0076;
 }
 
@@ -141,4 +150,13 @@ a.abot {
   padding: 2%;
   background-color: #F9F9F9;
 }
-
+@media (max-width:767px){
+  #foot{
+    padding-bottom: 10%;
+  }
+  .pad{
+    margin-left: 0;
+    padding-left: 20%;
+    padding-bottom: 0;
+  }
+}
