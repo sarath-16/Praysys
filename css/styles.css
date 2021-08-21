@@ -18,10 +18,10 @@ body{
 }
 .sz{
 
-height:40rem;
+height:100vh;
 }
 
-@media screen and (max-width:1200px)  {
+/* @media screen and (max-width:1200px)  {
 .sz{
 
   height:60vh;
@@ -34,7 +34,7 @@ height:40rem;
   height:20vh;
   }
 
-}
+} */
 .np{
   padding-left: 0;
 }
