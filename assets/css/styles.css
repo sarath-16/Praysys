@@ -1,0 +1,148 @@
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.nav-item {
+  padding: 0 35px;
+}
+
+.icon {
+  padding-bottom: 15px;
+}
+
+.bgc {
+  background-color: #110089;
+}
+
+.sc, .f {
+  color: white;
+  margin: 10px 10px;
+}
+
+.line {
+  border-radius: 2px;
+  width: 50px;
+  background-color: lightblue;
+  height: 3px;
+}
+
+.td {
+  padding: 14px;
+}
+
+.dc {
+  color: #021577;
+  text-align: center;
+}
+
+.contact-us {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.chbl {
+  background: linear-gradient(to right,#110089,#3204fd9A), url('https://pixabay.com/get/g437908715caa87122c9fcd85a7b7d1dabfa5183f50d3f64f153e31e9da0fbb9582fb09f079e970b37e34d771c2e60b2c_1920.jpg') no-repeat top center;
+  background-size: cover;
+}
+
+a.abot {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: lightblue;
+}
+
+a.abot {
+  position: relative;
+  padding-left: 20px;
+}
+
+.abot:before {
+  font-family: FontAwesome;
+  content: "\f0da";
+  position: absolute;
+  left: 0;
+}
+
+#foot {
+  padding: 1%;
+  background-color: #0F0076;
+}
+
+::placeholder {
+  color: lightblue;
+  opacity: 1;
+}
+
+.fpd {
+  padding-top: 20px;
+}
+
+.con {
+  float: right;
+}
+
+.sh {
+  text-align: center;
+}
+
+.footer {
+  display: inline-block;
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.bt:hover {
+  color: black;
+  background-color: white;
+}
+
+.bt {
+  border-radius: 50px;
+}
+
+.bgf {
+  color: lightblue;
+  border-color: white;
+  border-style: solid;
+  border-radius: 50px;
+  background: rgba(255, 0, 0, 0);
+}
+
+.bgf:focus {
+  outline: none;
+}
+
+.td2 {
+  padding: 1px 10px;
+}
+
+.btf {
+  padding: 10px;
+}
+
+.tab {
+  color: white;
+}
+
+#contact {
+  padding: 3% 5%;
+  background-color: #110089;
+}
+
+#choose {
+  padding: 2%;
+  background-color: #F9F9F9;
+}
+
