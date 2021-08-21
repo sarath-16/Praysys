@@ -136,6 +136,8 @@ a.abot {
 
 #contact {
   padding: 3% 5%;
+  padding-bottom:0;
+  margin-bottom:0;
   background-color: #110089;
 }
 
