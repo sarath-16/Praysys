@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
-<body><div class="brand">
+<body>
+  <div class="brand">
 
     <nav class="navbar navbar-dark bgc">
       <a class="navbar-brand" href="#">
@@ -76,17 +77,36 @@
     </form>
   </nav>
 
-    <div class="carousel slide carousel-fade" data-ride="carousel" id="carousel-1">
-        <div class="carousel-inner">
-            <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/dog-img.jpg" alt="Slide Image"></div>
-            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/lady-img.jpg" alt="Slide Image"></div>
+    <div class="carousel slide carousel-fade" data-ride="carousel" id="carousel-1" data-interval="3000">
+        <div class="carousel-inner carpos">
+            <div class="carousel-item active">
+              <div class="cart">
+                <h1> Growth</h1>
+                <p>Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+                <form action="index.html" method="post">
+                  <button type="submit" class="btn bt btn-primary">Consult us</button>
+                </form>
+              </div>
+              <img class="w-100 d-block" src="assets/img/dog-img.jpg" alt="Slide Image"></div>
+            <div class="carousel-item">
+              <div class="cart">
+                <h1> SUPPORT</h1>
+                <p>Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+                <form action="index.html" method="post">
+                  <button type="submit" class="btn bt btn-primary">Consult us</button>
+
+                </form>
+              </div>
+              <img class="w-100 d-block" src="assets/img/lady-img.jpg" alt="Slide Image"></div>
+
         </div>
-        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"></a></div>
         <ol class="carousel-indicators">
             <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-1" data-slide-to="1"></li>
         </ol>
     </div>
+
+
     <section class="features-clean">
         <div class="container">
             <div class="intro">
@@ -94,15 +114,15 @@
                 <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
             </div>
             <div class="row text-center features">
-                <div class="col-sm-6 col-lg-4 item" style="padding: 15px;text-align: justify;"><i class="fa fa-map-marker icon" style="margin-left: 0;padding-left: 50%;padding-bottom: 0;"></i>
+                <div class="col-sm-6 col-lg-4 item" style="padding: 15px;"><i class="fa fa-map-marker icon pad" ></i>
                     <h3 class="name" style="padding: 15px;text-align: center;margin-bottom: 0;">Works everywhere</h3>
                     <p class="description" style="padding: 15px;text-align: justify;">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
                 </div>
-                <div class="col-sm-6 col-lg-4 item" style="padding: 15px;text-align: justify;"><i class="fa fa-clock-o icon" style="margin-left: 0;padding-left: 50%;padding-bottom: 0;"></i>
+                <div class="col-sm-6 col-lg-4 item" style="padding: 15px;"><i class="fa fa-clock-o icon pad" ></i>
                     <h3 class="name" style="padding: 15px;text-align: center;margin-bottom: 0;">Always available</h3>
                     <p class="description" style="padding: 15px;text-align: justify;">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
                 </div>
-                <div class="col-sm-6 col-lg-4 item" style="padding: 15px;text-align: justify;"><i class="fa fa-phone icon" style="margin-left: 0;padding-left: 49%;padding-bottom: 0;"></i>
+                <div class="col-sm-6 col-lg-4 item" style="padding: 15px;"><i class="fa fa-phone icon pad"></i>
                     <h3 class="name" style="text-align: center;padding: 15px;margin-bottom: 0;">Mobile-first</h3>
                     <p class="description" style="padding: 15px;">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
                 </div>
@@ -150,7 +170,7 @@
                 <div>
                     <form>
                         <div class="form-row">
-                            <div class="form-group col-lg-6"><input type="text" class="form-control" placeholder="First name" /></div>
+                            <div class="form-group col-lg-6"><input type="text" class="form-control " placeholder="First name" /></div>
                             <div class="form-group col-lg-6"><input type="text" class="form-control" placeholder="Last name" /></div>
                             <div class="form-group col"><input type="email" class="form-control" id="inputEmail4" placeholder="Email" /></div>
                         </div>
@@ -159,7 +179,7 @@
                         <div class="form-row">
                             <div class="form-group col-md-6"><input type="text" class="form-control" id="inputCity" placeholder="City" /></div>
                             <div class="form-group col-md-6"><input type="text" class="form-control" id="inputZip" placeholder="ZIP" /></div>
-                        </div><br /><button type="submit" class="btn bt btn-primary">Consult us</button>
+                        </div><br><button type="submit" class="btn bt btn-primary">Consult us</button>
                     </form>
                 </div>
             </div>
@@ -167,9 +187,9 @@
     </div>
 </section>
 </div>
-    <br>
-    <br>
-    <section id=contact>
+<br>
+<br>
+<section id=contact>
   <div class="slideanim slide">
     <h1 class="contact-us"> CONTACT US</h1>
     <br>
